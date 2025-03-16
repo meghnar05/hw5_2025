@@ -107,10 +107,6 @@ Edit the css for the gallery class to use flex to match our example. */
         width: 100%;
     }
 
-    main {
-        padding-top: 100px;
-    }
-
     .nav_links {
         display: flex;
         flex-direction: row;
@@ -137,6 +133,10 @@ Edit the css for the gallery class to use flex to match our example. */
     Modify the first header (the one not inside main) so that it remains visible at the top of the screen even as we scroll down. Make sure that it is always visible. */
     body > header {
         position: fixed;
+    }
+
+    main {
+        padding-top: 100px;
     }
 }
 
